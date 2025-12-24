@@ -26,3 +26,6 @@ def main_view(request):
 
 def contacts_view(request):
     return render(request, 'contacts-page.html',{})
+
+def cars_viuvs(request):
+    return render(request, 'cars.html',{})
